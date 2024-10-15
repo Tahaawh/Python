@@ -1,5 +1,6 @@
  ### just some codes i need...
- #### python 1 is for beginners
-  #### python 2 is for beginners/intermediate
-This is the [`python 1`](./python 1) folder.
-python 1
+#### Python 1 - For Beginners
+[python 1](./python%201)
+
+#### Python 2 - For Beginners/Intermediate
+[python 2](./python%202)
