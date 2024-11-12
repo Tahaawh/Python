@@ -139,3 +139,19 @@ while True:
         break
     print(line)
 file3.close()
+# new 
+
+IstName = ["ali", "reza", "nima", "sara", "negin", "elham"]
+
+f1 = open("file1.txt", 'w')
+for item in IstName:
+    f1.write(item + "\n")
+f1.close()
+
+# other
+names = "ali-nima-sara-reza-amin-zahra"
+Ist1 = names.split('-')  # Split by the hyphen
+print(Ist1)  # Print the list of names
+
+str1 = (" ").join(Ist1)  # Join the names with a space
+print(str1)  # Print the final string
