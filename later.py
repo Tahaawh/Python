@@ -104,43 +104,6 @@ words_from_file = process_file(file_name_input)
 print(words_from_file)
 
 
-# Program 9: Writing a List of Names to a File
-name_list = ["taha", "ali", "hamid", "reza", "sara"]
-for name in name_list:
-    # Missing implementation; assuming intended code for writing to file here
-    pass
-
-file1 = open("file01.txt", 'a')
-file1.write(str(name_list))
-file1.close()
-
-
-# Program 10: Append Text to a New File
-def append_to_file(filename, content_to_append):
-    new_file = open(filename + ".txt", 'a')
-    new_file.write(content_to_append)
-    new_file.close()
-    print("New file done.")
-
-file_name_input = input("Name for your new file:")
-content_to_append_input = input("Enter your content to append:")
-append_to_file(file_name_input, content_to_append_input)
-
-
-# Program 11: Reading and Splitting File Content
-file_contents = []
-file1 = open("taha12.txt", 'r')
-file_content = file1.read()
-split_content = file_content.split()
-file1.close()
-print(split_content)
-
-
-# Program 12: Writing to File with Split Content
-split_content_str = "*".join(split_content)
-file_contents.append(split_content_str)
-
-
 # Program 13: File Processing and Writing Again
 file_contents = []
 file1 = open("taha12.txt", 'r')
