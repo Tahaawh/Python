@@ -45,7 +45,6 @@ file1.close()
 
 
 # Program 4: File Writing from List of Names
-first_names = ["ali", "reza", "nima", "sara", "negin", "elham"]
 
 def create_file(filename, content):
     file = open(filename + ".txt", 'w')
