@@ -37,3 +37,17 @@ def calculate_average(file_path):
 
 file_path = input("Enter file path: ")
 calculate_average(file_path)
+
+f1 = open("new.txt", 'r+')
+s2 = f1.read()
+f1.seek(10, 0)
+lines = s2.split("\n")
+
+for i in range(len(lines)):
+    if i % 2 == 0:
+        f1.write("*\n")
+    else:
+        f1.write(lines[i] + "\n")
+
+f1.close()
+
