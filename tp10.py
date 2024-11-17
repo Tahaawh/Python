@@ -20,3 +20,20 @@ arabi-15
 farsi=19
 varzesh=20
 english=18
+
+
+def calculate_average(file_path):
+    file = open(file_path, 'r')
+    lines = file.readlines()
+    file.close()
+    
+    scores = [float(line.strip()) for line in lines if line.strip()]
+    
+    if len(scores) > 0:
+        average = sum(scores) / len(scores)
+        print(round(average, 1))
+    else:
+        print("No scores found.")
+
+file_path = input("Enter file path: ")
+calculate_average(file_path)
