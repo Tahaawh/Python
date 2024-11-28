@@ -1,7 +1,5 @@
-# Role-based access control program
 role = input("Enter your role (Admin/Accountant/Employee/Manager): ")
 
-# Match statement for role verification
 match role:
     case "Admin":
         password = input("Enter your password: ")
