@@ -1,11 +1,11 @@
-def files(fileName):
-    file = open(fileName + ".txt", 'r')
-    str2 = file.readlines()
-    str3 = '*'.join(str2)
-    str2.append(str3)
+def process_file(file_name):
+    file = open(file_name + ".txt", 'r')
+    file_lines = file.readlines()
+    combined_lines = '*'.join(file_lines)
+    file_lines.append(combined_lines)
     file.close()
     
-    print("done:", str2)
+    print("Done:", file_lines)
 
 filename = input("Enter your file name: ")
-files(filename)
+process_file(filename)
