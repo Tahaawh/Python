@@ -1,3 +1,11 @@
+# Extracting phone numbers
+# Validating emails
+# Writing and reading from files
+# String manipulation (splitting and joining)
+# Appending and processing text in files
+
+
+
 # Program 1: Phone Number Extraction from Text
 text = '''Iran endured invasions by the Macedonians, 09122501580 Arabs, Turks, and Mongols. Despite these invasions:
 Iran remained a monarchy until 09121941560 the 1979 Iranian Revolution, when it officially 09121929161 became'''
