@@ -5,6 +5,6 @@ print(len(person))
 
 keys_list = list(person.keys())
 print(keys_list)
-
+print(person.keys())
 values_list = list(person.values())
 print(values_list)
